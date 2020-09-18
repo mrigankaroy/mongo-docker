@@ -1,0 +1,1 @@
+db.createUser( { user: "microservice_admin", pwd: "microservice_admin", roles: [ { role: "readWrite", db: "mongo-docker" } ] } )
